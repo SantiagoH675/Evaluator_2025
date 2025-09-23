@@ -9,10 +9,6 @@ namespace Evaluator.UI.Windows
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-        }
-
         private void btn7_Click(object sender, EventArgs e)
         {
             txtDisplay.Text += "7";
