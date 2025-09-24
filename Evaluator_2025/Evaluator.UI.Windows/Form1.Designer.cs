@@ -55,14 +55,14 @@
             // txtDisplay
             // 
             txtDisplay.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            txtDisplay.BackColor = Color.DarkGreen;
+            txtDisplay.BackColor = Color.Green;
+            txtDisplay.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtDisplay.ForeColor = Color.White;
-            txtDisplay.Location = new Point(12, 12);
-            txtDisplay.Multiline = true;
+            txtDisplay.Location = new Point(12, 32);
+            txtDisplay.Margin = new Padding(5);
             txtDisplay.Name = "txtDisplay";
-            txtDisplay.Size = new Size(621, 63);
-            txtDisplay.TabIndex = 0;
-            txtDisplay.TextChanged += textBox1_TextChanged;
+            txtDisplay.Size = new Size(671, 47);
+            txtDisplay.TabIndex = 3;
             // 
             // btn7
             // 
