@@ -309,6 +309,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Black;
             ClientSize = new Size(639, 403);
             Controls.Add(btnClear);
             Controls.Add(btnDelete);
@@ -334,6 +335,7 @@
             Controls.Add(txtDisplay);
             Name = "Form1";
             Text = "Functions Evaluator";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
